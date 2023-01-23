@@ -38,6 +38,7 @@ nav {
 
 .box {
     background-color: #daa520;
+    padding: 3px;
 }
 
 .contenitore {
@@ -61,4 +62,9 @@ nav ul {
 
 nav div{
     width: 15%;
+}
+
+ul + div{
+    text-align: right;
+
 }
