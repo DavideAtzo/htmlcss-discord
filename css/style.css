@@ -22,6 +22,7 @@ debug
 
 .debug-nav{
     background-color: #add8e6;
+    
 
 }
 
@@ -29,6 +30,18 @@ debug
     border: 1px dashed black;
 }
 
+
+.debug-blue{
+    background-color: #00008b;
+ 
+}
+
+.debug-pink{
+    background-color: #ee82ee;
+    width: 900px;
+    height: 400px;
+
+}
 
 /* 
 +++++++++++++
@@ -39,10 +52,10 @@ permanenti
 
 
 nav {
-    ;
     display: flex;
     justify-content: center;
-    
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .box {
@@ -76,4 +89,12 @@ nav div{
 ul + div{
     text-align: right;
 
+}
+
+.blue{
+    height: 500px;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
 }
