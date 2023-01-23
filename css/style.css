@@ -55,6 +55,8 @@ nav ul {
     list-style-type: none;
     border: 1px dashed black;
     display: flex;
+    flex-grow: 1;
+   justify-content: center;
 }
 
 nav div{
