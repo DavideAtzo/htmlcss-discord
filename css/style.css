@@ -16,9 +16,18 @@ debug
 +++++++++++++
 */
 
+.debug-box{
+    background-color: #daa520;
+}
 
+.debug-nav{
+    background-color: #add8e6;
 
+}
 
+.debug-ul{
+    border: 1px dashed black;
+}
 
 
 /* 
@@ -30,14 +39,13 @@ permanenti
 
 
 nav {
-    background-color: #add8e6;
+    ;
     display: flex;
     justify-content: center;
     
 }
 
 .box {
-    background-color: #daa520;
     padding: 3px;
 }
 
@@ -50,14 +58,15 @@ nav {
 }
 
 
-
+nav a{
+    text-decoration: none
+}
 
 nav ul {
     list-style-type: none;
-    border: 1px dashed black;
     display: flex;
     flex-grow: 1;
-   justify-content: center;
+    justify-content: center;
 }
 
 nav div{
