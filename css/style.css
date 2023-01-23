@@ -36,11 +36,60 @@ debug
  
 }
 
-.debug-pink{
+.debug-fuxia{
     background-color: #ee82ee;
-    width: 900px;
-    height: 400px;
+   
 
+}
+
+.debug-blocco-azz{
+    background-color: #1e90ff;
+    border: 1px dashed;
+    
+}
+
+.debug-blocco-rosa{
+    background-color: #ffc0cb;
+    border: 1px dashed;
+}
+
+.debug .blocco:nth-child(even){
+    background-color: #d3d3d3;
+}
+
+.debug-blocco-green{
+    background-color: #228b22;
+    width: 1200px;
+    height: 900px;
+} 
+
+
+.debug-contenit-gr{
+    background-color: #f08080;
+    border: 1px dashed;
+}
+
+
+.debug-contenit-picc{
+    background-color: #20b2aa;
+    border: 1px dashed;
+}
+
+.debug-endfooter{
+    background-color: #7fffd4;
+    
+}
+
+
+.debug-footer-logo{
+    background-color: #ffb6c1;
+    border: 1px dashed;
+}
+
+.debug-footer-bottone{
+    background-color: #ffb6c1;
+    border: 1px dashed;
+    
 }
 
 /* 
@@ -50,6 +99,7 @@ permanenti
 */
 
 
+/* header  */
 
 nav {
     display: flex;
@@ -97,4 +147,98 @@ ul + div{
     justify-content: center;
     align-items: center;
    
+}
+
+.fuxia{
+    width: 900px;
+    height: 400px;
+}
+
+/* fine header  */
+
+/* inizio main  */
+
+.moduli{
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.rosa{
+    width: 480px;
+    height: 500px;
+}
+
+.azz{
+    width: 720px;
+    height: 500px;
+}
+
+.main-bottom{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+
+/* fine main  */
+
+/* inizio foooter  */
+.footer-flex{
+    background-color: #23272a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 630px;
+    border-bottom: 1px solid #eeeeee;
+
+}
+
+
+.contenit-footer{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.salmon{
+    width: 360px;
+    height: 580px;
+}
+
+.picc{
+    width: 210px;
+    height: 580px;
+}
+
+.endfooter{
+    background-color: #23272a;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.cont-endfooter{
+    width: 1200px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.footlogo{
+    display: flex;
+    padding: 5px;
+}
+
+.footbottone{
+    display: flex;
+    padding: 5px;
 }
