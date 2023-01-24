@@ -8,6 +8,7 @@ reset
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* 
@@ -16,7 +17,7 @@ debug
 +++++++++++++
 */
 
-.debug header .top-header .top-menu>div,
+/* .debug header .top-header .top-menu>div,
 .debug header .top-header .top-menu>nav,
 .debug header .bottom-header > div,
 .debug .top-footer > div,
@@ -24,7 +25,7 @@ debug
 .debug footer .bottom-footer .footer-bottone
  {
     border: 2px dashed black;
-}
+} */
 
 .debug header .bottom-header .small-box{
     height: 400px;
@@ -65,28 +66,34 @@ commond
 
 /* header  */
 
+header{
+    background-image: url(../img/jumbo.png);
+}
+
 header .top-header {
     margin: 0 auto;
     padding: 15px 0;
     display: flex;
     justify-content: center;
-    background: #add8e6;
+   
     
 }
 
 .top-login{
-    text-align: right;
+   align-items: center;
 
 }
 
 .top-menu{
-    background-color: #daa520;
     display: flex;
     justify-content: space-between;
+    color: white;
+    font-size: 1.2em;
 }
 
 
-header .top-header .container ul{
+header .top-header .container ul,
+header .bottom-header .small-box ul{
     list-style-type: none;
     display: flex;
     gap: 5px;
@@ -109,14 +116,67 @@ header .top-header .top-menu > nav{
     padding: 10px;
 }
 
+/* header .bottom-header .small-box ul li::before{
+    content: '\1F87B';
+
+} */
+
+
+header .bottom-header .small-box ul{
+    display: flex;
+    justify-content: center;
+}
+
+header .bottom-header .small-box ul li{
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 20px;
+    padding: 5px 10px;
+} 
+
+
+header .top-header .top-menu .top-login > div{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 5px 0px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    margin-left: 90px;
+}   
+
+header .bottom-header .small-box ul li:first-child{
+    background-color: white;
+    color: black;
+}
+
+
+header .bottom-header .small-box ul li:last-child{
+    background-color: black;
+    color: white;
+}
+
 .bottom-header{
-    background-color: #00008b;
+   
     display: flex;
     padding: 50px;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    line-height: 2;
+    color: white;
+
 }
 
+header .bottom-header .small-box h1{
+    font-size: 50px;
+}
+
+
+header .bottom-header .small-box p{
+    font-size: 1.5em;
+    margin: 25px auto;
+}
 
 .box,
 {
@@ -125,7 +185,6 @@ header .top-header .top-menu > nav{
 
 .small-box{
     width: 900px;
-    background-color: #ee82ee;
 }
 
 
