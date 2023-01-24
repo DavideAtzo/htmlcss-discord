@@ -303,14 +303,51 @@ footer .top-footer{
     padding: 10px 0;
 }
 
+footer .top-footer .menu1 h2{
+    font-size: 40px;
+    margin: 30px 0 20px 0;
+ 
+}
+
+footer .top-footer .menu1 div::after{
+    content: '\02C5';
+    padding: 5px;
+    vertical-align: middle;
+}
+
+
+footer .top-footer .menu1 div{
+    font-size: 22px;
+}
+
+footer .top-footer .menu1 div,
+footer .top-footer .menu1 a{
+    color: white;
+    margin: 10px;
+}
+
+footer .top-footer .after-menu .small-menu{
+    color: white;
+    margin: 30px 0 20px 0;
+}
+
+footer .top-footer .after-menu .small-menu div{
+    margin: 10px 0 10px 0;
+}
+
+footer .top-footer .menu1 h2,
+footer .top-footer .after-menu .small-menu h3{
+    color: #3852a9;
+}
+
+
 footer .top-footer .menu1{
     width: 30%;
-    background-color: #f08080;
+
 }
 
 footer .top-footer .after-menu{
     width: 70%;
-    background-color: #20b2aa;
     display: flex;
     justify-content: space-between;
 }
